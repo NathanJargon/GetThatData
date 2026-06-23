@@ -22,7 +22,7 @@ class AIWebExtractorApp(ctk.CTk):
         self.app_config = config.load_config()
 
         # Window properties
-        self.title("AI Web Extractor & Content Restructurer")
+        self.title("GetTheData")
         self.geometry("1100x700")
         self.minsize(800, 600)
 
