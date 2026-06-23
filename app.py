@@ -71,7 +71,7 @@ class AIWebExtractorApp(ctk.CTk):
 
         self.logo_label = ctk.CTkLabel(
             self.header_frame, 
-            text="🕸️ AI Web Extractor", 
+            text="GetTheData", 
             font=ctk.CTkFont(family="Segoe UI", size=22, weight="bold"),
             text_color="#6366f1" # Vibrant Indigo Accent
         )
