@@ -11,7 +11,7 @@ DEFAULT_CONFIG = {
     'gemini_api_key': '',
     'default_provider': 'Gemini',
     'gemini_model': 'gemini-3.5-flash',
-    'ollama_model': 'llama3',
+    'ollama_model': 'llama3.2',
     'ollama_url': 'http://localhost:11434',
     'preset_index': 0,
     'custom_prompt': ''

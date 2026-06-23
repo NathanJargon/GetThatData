@@ -364,7 +364,7 @@ class AIWebExtractorApp(ctk.CTk):
         if models:
             self.after(0, lambda: self.update_ollama_combobox(models, connected=True))
         else:
-            default_fallbacks = ["llama3", "mistral", "gemma", "phi3", "llama2", "codellama"]
+            default_fallbacks = ["llama3.2", "llama3.2:1b", "qwen2.5:1.5b", "gemma2:2b", "llama3", "mistral", "phi3"]
             self.after(0, lambda: self.update_ollama_combobox(default_fallbacks, connected=False))
 
     def update_ollama_combobox(self, models, connected=True):
