@@ -1,0 +1,17 @@
+# Environments
+.env
+.venv
+venv
+ENV/
+
+# Configuration Cache (may contain saved API keys)
+config.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE configurations
+.vscode/
+.idea/
